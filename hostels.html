@@ -4,6 +4,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>HMS - Hostels</title>
+<link rel="stylesheet" href="/src/output.css">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <script src="https://cdn.tailwindcss.com"></script>
 <style>
@@ -21,14 +22,18 @@
     <span class="text-lg font-bold">HMS</span>
   </div>
   <div class="flex items-center gap-1">
-    <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-      Dashboard
-    </div>
-    <div class="flex items-center gap-2 px-5 py-2 text-sm text-white bg-[#1c1c1c] border border-[#333] rounded-lg cursor-pointer">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 3v18M16 3v18"/></svg>
-      Rooms
-    </div>
+    <a href="/index.html">
+      <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Dashboard
+      </div>
+    </a>
+    <a href="/rooms.html">
+      <div class="flex items-center gap-2 px-5 py-2 text-sm text-white bg-[#1c1c1c] border border-[#333] rounded-lg cursor-pointer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 3v18M16 3v18"/></svg>
+        Rooms
+      </div>
+    </a>
     <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
       Attendance
@@ -64,14 +69,18 @@
       <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M3 12h1M20 12h1M12 3v1M12 20v1M5.64 5.64l.7.7M17.66 17.66l.7.7M5.64 18.36l.7-.7M17.66 6.34l.7-.7"/></svg>
       Occupancy
     </div>
-    <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-[#2a2a2a] cursor-pointer text-sm text-white">
-      <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+    <a href="/hostels.html">
+      <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-[#2a2a2a] cursor-pointer text-sm text-white">
+        <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="2"><rect x="3" y="3" width="7" height="9" rx="1"/><rect x="14" y="3" width="7" height="5" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
       Hostels
-    </div>
-    <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg cursor-pointer text-sm text-[#aaa]">
-      <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 9V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2"/><path d="M2 9h20v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/><path d="M6 9v12M18 9v12"/></svg>
-      Rooms
-    </div>
+      </div>
+    </a>
+    <a href="/rooms.html">
+      <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg cursor-pointer text-sm text-[#aaa]">
+        <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 9V7a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2"/><path d="M2 9h20v11a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2z"/><path d="M6 9v12M18 9v12"/></svg>
+        Rooms
+      </div>
+    </a>
     <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg cursor-pointer text-sm text-[#aaa]">
       <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
       Assigned

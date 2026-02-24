@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="/src/output.css">
 <title>HMS - Students</title>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
 <script src="https://cdn.tailwindcss.com"></script>
@@ -21,14 +22,18 @@
     <span class="text-lg font-bold">HMS</span>
   </div>
   <div class="flex items-center gap-1">
-    <div class="flex items-center gap-2 px-5 py-2 text-sm text-white bg-[#1c1c1c] border border-[#333] rounded-lg cursor-pointer">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-      Dashboard
-    </div>
-    <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 3v18M16 3v18"/></svg>
-      Rooms
-    </div>
+    <a href="/index.html">
+      <div class="flex items-center gap-2 px-5 py-2 text-sm text-white bg-[#1c1c1c] border border-[#333]    rounded-lg cursor-pointer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+        Dashboard
+      </div>
+    </a>
+    <a href="/rooms.html">
+      <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 3v18M16 3v18"/></svg>
+        Rooms
+      </div>
+    </a>
     <div class="flex items-center gap-2 px-5 py-2 text-sm text-[#aaa] rounded-lg cursor-pointer">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
       Attendance
@@ -64,10 +69,12 @@
       <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
       Analytics
     </div>
-    <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-[#2a2a2a] cursor-pointer text-sm text-white">
-      <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="#00e5ff" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
-      Students
-    </div>
+    <a href="/dashboard_students.html">
+      <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg bg-[#2a2a2a] cursor-pointer text-sm text-white">
+        <img src="/images/Vector (39).png" alt="">
+        Students
+      </div>
+    </a>
     <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg cursor-pointer text-sm text-[#aaa]">
       <svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
       Complaints

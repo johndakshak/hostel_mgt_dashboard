@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HMS Dashboard</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="/src/output.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <style>
         body { font-family: 'Inter', sans-serif; }
@@ -33,10 +34,12 @@
 
             <!-- Nav tabs -->
             <div class="flex items-center gap-1">
-                <div class="flex items-center gap-2 px-5 py-2 bg-[#1c1c1c] border border-[#333] rounded-lg text-sm cursor-pointer">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
-                    Dashboard
-                </div>
+                <a href="/index.html">
+                    <div class="flex items-center gap-2 px-5 py-2 bg-[#1c1c1c] border border-[#333] rounded-lg text-sm cursor-pointer">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+                        Dashboard
+                    </div>
+                </a>
                 <a href="/rooms.html">
                   <div class="flex items-center gap-2 px-5 py-2 text-sm text-gray-400 rounded-lg cursor-pointer">
                       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><path d="M8 3v18M16 3v18"/></svg>
@@ -82,7 +85,7 @@
                 </div>
                 <a href="/dashboard_students.html">
                   <div class="flex items-center gap-3 px-4 py-2.5 rounded-lg text-gray-400 cursor-pointer">
-                      <img src="/images/ph_student.png" alt="">
+                      <img src="/images/Vector (38).png" alt="">
                       <span>Students</span>
                   </div>
                 </a>
